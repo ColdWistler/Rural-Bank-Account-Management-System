@@ -77,7 +77,6 @@ The RBAMS JavaFX GUI application supports the following features:
 
 ##   📸 Screenshots
 
-   (Drag and drop your screenshots here, or provide file paths)
 
    **Screenshot 1: Deposit Operation 💸**
 
