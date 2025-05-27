@@ -81,7 +81,8 @@ The RBAMS JavaFX GUI application supports the following features:
 
    **Screenshot 1: Deposit Operation 💸**
 
-   <br><br><br><br><br><br><br><br><br><br>
+   <br>![Deposit](https://github.com/user-attachments/assets/1e43f1e2-feea-4e03-82fb-14ea8571403d)
+<br><br><br><br><br><br><br><br><br>
 
    **Screenshot 2: Withdrawal Attempt with InsufficientBalanceException 💳 🚨**
 
@@ -91,4 +92,4 @@ The RBAMS JavaFX GUI application supports the following features:
 
    <br><br><br><br><br><br><br><br><br><br>
 
-   This README adapts the assignment requirements to the context of a JavaFX GUI application, explaining how the GUI fulfills the objectives while adhering to OOP principles and exception handling.
+ 
