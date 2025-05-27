@@ -11,14 +11,14 @@ import javafx.scene.control.*;
 import javafx.scene.layout.*;
 import javafx.stage.Stage;
 
-public class Main extends Application { // Renamed class to Main
+public class Main extends Application { 
 
     private Map<String, Customer> customers = new HashMap<>();
     private int accountNumberCounter = 1000;
     private Customer currentCustomer;
     private ComboBox<BankAccount> accountComboBox = new ComboBox<>();
     private Label accountDetailsLabel = new Label("No account selected.");
-    private Button addInterestButton; // Declare addInterestButton
+    private Button addInterestButton; 
 
     public static void main(String[] args) {
         launch(args);
