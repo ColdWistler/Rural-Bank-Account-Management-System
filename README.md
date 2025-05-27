@@ -88,9 +88,12 @@ The RBAMS JavaFX GUI application supports the following features:
 
    **Screenshot 2: Withdrawal Attempt with InsufficientBalanceException 💳 🚨**
 
-   <br><br><br><br><br><br><br><br><br><br>
+   <br><br>![Withdrawlexception](https://github.com/user-attachments/assets/fb9bb93b-3454-4e62-bce7-003809c5fb93)
+<br><br>![withdrawlsuccess](https://github.com/user-attachments/assets/0dfa530f-fa86-4910-86fd-a2f944ff2c03)
+<br><br><br><br><br><br>
 
    **Screenshot 3: Adding Interest to a Savings Account 📈 💰**
+![Interest](https://github.com/user-attachments/assets/304d1860-d769-4ea9-9db1-0c2dbfdd97ea)
 
    <br><br><br><br><br><br><br><br><br><br>
 
