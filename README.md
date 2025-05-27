@@ -12,11 +12,11 @@ The RBAMS JavaFX GUI application supports the following features:
 
 * **🧑‍🤝‍🧑 Customer Management:**
 
-      * Allows users to create a new customer by entering their name or select an existing customer.
+  * Allows users to create a new customer by entering their name or select an existing customer.
 * **🏦 Account Creation:**
 
-        * Users can create new Savings or Current accounts for the currently selected customer.
-        * For Savings accounts, users can specify the initial balance and annual interest rate.
+   * Users can create new Savings or Current accounts for the currently selected customer.
+  * For Savings accounts, users can specify the initial balance and annual interest rate.
         * For Current accounts, users can specify the initial balance and overdraft limit.
 * **🗂️ Account Selection:**
 
