@@ -20,34 +20,34 @@ The RBAMS JavaFX GUI application supports the following features:
         * For Current accounts, users can specify the initial balance and overdraft limit.
 * **🗂️ Account Selection:**
 
-        * A dropdown menu (ComboBox) displays all accounts associated with the current customer.
+   * A dropdown menu (ComboBox) displays all accounts associated with the current customer.
         * Users can select an account to perform operations.
 * **ℹ️ Account Details Display:**
 
-        * The details of the selected account (account holder name, account number, balance, interest rate for savings, overdraft limit for current) are displayed.
+  * The details of the selected account (account holder name, account number, balance, interest rate for savings, overdraft limit for current) are displayed.
 * **💸 Deposit:**
 
-        * Users can deposit a specified amount into the selected account using a dialog box for input.
+  * Users can deposit a specified amount into the selected account using a dialog box for input.
         * The application validates that the deposit amount is positive.
 * **💳 Withdraw:**
 
-        * Users can withdraw a specified amount from the selected account using a dialog box.
+  * Users can withdraw a specified amount from the selected account using a dialog box.
         * For Savings accounts, withdrawal is not allowed if it exceeds the current balance.
         * For Current accounts, withdrawal is allowed up to the balance plus the overdraft limit.
         * The application handles insufficient balance scenarios with informative alerts 🚨.
 * **📈 Add Interest (Savings Account):**
 
-        * A button allows users to add interest to the selected Savings account. This button is disabled if a Current account is selected.
+   * A button allows users to add interest to the selected Savings account. This button is disabled if a Current account is selected.
  * **🖥️ User-Friendly Interface:**
 
-        * Provides a graphical interface using JavaFX controls.
+   * Provides a graphical interface using JavaFX controls.
         * Uses Alert dialogs to display information and error messages.
 
 ##   👨‍💻 Class Design and OOP Concepts
 
-    The application is designed using the following Object-Oriented Programming (OOP) concepts, as emphasized in the assignment:
+   The application is designed using the following Object-Oriented Programming (OOP) concepts, as emphasized in the assignment:
 
-    * **Abstraction 🌳:** The `BankAccount` class is an abstract class, defining the common interface for all account types.
+   * **Abstraction 🌳:** The `BankAccount` class is an abstract class, defining the common interface for all account types.
     * **Inheritance 🧬:** The `SavingsAccount` and `CurrentAccount` classes inherit from the `BankAccount` class.
     * **Encapsulation 🔒:** Data members (attributes) are kept private, and access is controlled through getter/setter methods.
     * **Polymorphism 🎭:** Polymorphism is used in methods like `displayAccountDetails()` to provide account-type-specific output.
@@ -55,13 +55,13 @@ The RBAMS JavaFX GUI application supports the following features:
 
 ##   ⚠️ Custom Exception Handling
 
-    * A custom exception class `InsufficientBalanceException` is defined.
+   * A custom exception class `InsufficientBalanceException` is defined.
     * This exception is thrown when a withdrawal amount exceeds the allowed limit.
     * The exception is caught and handled in the application, and a user-friendly message is displayed using JavaFX Alert dialogs.
 
  ##   🚀 How to Run
 
-    1.  Ensure you have the Java Development Kit (JDK) ☕ and JavaFX SDK 🧩 installed and configured.
+   1.  Ensure you have the Java Development Kit (JDK) ☕ and JavaFX SDK 🧩 installed and configured.
     2.  Compile the Java source code files. You will need to include the JavaFX modules in the compilation command.
 
         ```bash
@@ -77,18 +77,18 @@ The RBAMS JavaFX GUI application supports the following features:
 
 ##   📸 Screenshots
 
-    (Drag and drop your screenshots here, or provide file paths)
+   (Drag and drop your screenshots here, or provide file paths)
 
-    **Screenshot 1: Deposit Operation 💸**
+   **Screenshot 1: Deposit Operation 💸**
 
-    <br><br><br><br><br><br><br><br><br><br>
+   <br><br><br><br><br><br><br><br><br><br>
 
-    **Screenshot 2: Withdrawal Attempt with InsufficientBalanceException 💳 🚨**
+   **Screenshot 2: Withdrawal Attempt with InsufficientBalanceException 💳 🚨**
 
-    <br><br><br><br><br><br><br><br><br><br>
+   <br><br><br><br><br><br><br><br><br><br>
 
-    **Screenshot 3: Adding Interest to a Savings Account 📈 💰**
+   **Screenshot 3: Adding Interest to a Savings Account 📈 💰**
 
-    <br><br><br><br><br><br><br><br><br><br>
+   <br><br><br><br><br><br><br><br><br><br>
 
-    This README adapts the assignment requirements to the context of a JavaFX GUI application, explaining how the GUI fulfills the objectives while adhering to OOP principles and exception handling.
+   This README adapts the assignment requirements to the context of a JavaFX GUI application, explaining how the GUI fulfills the objectives while adhering to OOP principles and exception handling.
