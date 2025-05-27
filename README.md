@@ -1,14 +1,14 @@
 #   🏦 Rural Bank Account Management System (RBAMS) - JavaFX GUI Application 🧑‍💻
 
-    This README provides an overview of the JavaFX GUI version of the Rural Bank Account Management System (RBAMS). While the original assignment specified a console-based application, this implementation utilizes a graphical user interface (GUI) to enhance user interaction and experience. The application allows users to manage customer bank accounts, including Savings 💰 and Current 💳 accounts.
+ This README provides an overview of the JavaFX GUI version of the Rural Bank Account Management System (RBAMS). While the original assignment specified a console-based application, this implementation utilizes a graphical user interface (GUI) to enhance user interaction and experience. The application allows users to manage customer bank accounts, including Savings 💰 and Current 💳 accounts.
 
  ##   📜 Project Description
 
-    The Rural Bank of Nepal (RBN) aims to provide basic banking services in remote areas of Nepal. This system is designed to be simple, secure, and efficient. This JavaFX application offers a user-friendly interface for bank staff to manage customer accounts, performing operations such as creating accounts, depositing 💸 and withdrawing funds, applying interest 📈, and viewing account details.
+The Rural Bank of Nepal (RBN) aims to provide basic banking services in remote areas of Nepal. This system is designed to be simple, secure, and efficient. This JavaFX application offers a user-friendly interface for bank staff to manage customer accounts, performing operations such as creating accounts, depositing 💸 and withdrawing funds, applying interest 📈, and viewing account details.
 
 ##   ✨ Features
 
-    The RBAMS JavaFX GUI application supports the following features:
+The RBAMS JavaFX GUI application supports the following features:
 
 * **🧑‍🤝‍🧑 Customer Management:**
 
