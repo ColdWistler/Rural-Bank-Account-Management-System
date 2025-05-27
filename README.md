@@ -48,10 +48,10 @@ The RBAMS JavaFX GUI application supports the following features:
    The application is designed using the following Object-Oriented Programming (OOP) concepts, as emphasized in the assignment:
 
    * **Abstraction 🌳:** The `BankAccount` class is an abstract class, defining the common interface for all account types.
-    * **Inheritance 🧬:** The `SavingsAccount` and `CurrentAccount` classes inherit from the `BankAccount` class.
-    * **Encapsulation 🔒:** Data members (attributes) are kept private, and access is controlled through getter/setter methods.
-    * **Polymorphism 🎭:** Polymorphism is used in methods like `displayAccountDetails()` to provide account-type-specific output.
-    * **Aggregation 🤝:** The `Customer` class maintains a list of `BankAccount` objects.
+   * **Inheritance 🧬:** The `SavingsAccount` and `CurrentAccount` classes inherit from the `BankAccount` class.
+   * **Encapsulation 🔒:** Data members (attributes) are kept private, and access is controlled through getter/setter methods.
+   * **Polymorphism 🎭:** Polymorphism is used in methods like `displayAccountDetails()` to provide account-type-specific output.
+   * **Aggregation 🤝:** The `Customer` class maintains a list of `BankAccount` objects.
 
 ##   ⚠️ Custom Exception Handling
 
