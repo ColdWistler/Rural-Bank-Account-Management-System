@@ -56,8 +56,8 @@ The RBAMS JavaFX GUI application supports the following features:
 ##   ⚠️ Custom Exception Handling
 
    * A custom exception class `InsufficientBalanceException` is defined.
-    * This exception is thrown when a withdrawal amount exceeds the allowed limit.
-    * The exception is caught and handled in the application, and a user-friendly message is displayed using JavaFX Alert dialogs.
+   * This exception is thrown when a withdrawal amount exceeds the allowed limit.
+   * The exception is caught and handled in the application, and a user-friendly message is displayed using JavaFX Alert dialogs.
 
  ##   🚀 How to Run
 
