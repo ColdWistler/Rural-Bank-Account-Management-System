@@ -62,14 +62,15 @@ The RBAMS JavaFX GUI application supports the following features:
  ##   🚀 How to Run
 
    1.  Ensure you have the Java Development Kit (JDK) ☕ and JavaFX SDK 🧩 installed and configured.
-    2.  Compile the Java source code files. You will need to include the JavaFX modules in the compilation command.
+   2.  Compile the Java source code files. You will need to include the JavaFX modules in the compilation command.
 
         ```bash
         javac --module-path /path/to/javafx-sdk-xx/lib --add-modules javafx.controls,javafx.graphics src/*.java -d out
         ```
 
         (Replace `/path/to/javafx-sdk-xx/lib` with the actual path to your JavaFX SDK.)
-    3.  Run the application. You will also need to include the JavaFX modules when running the application.
+   
+   3.  Run the application. You will also need to include the JavaFX modules when running the application.
 
         ```bash
         java --module-path /path/to/javafx-sdk-xx/lib --add-modules javafx.controls,javafx.graphics src.Main # or src.MainApplication
